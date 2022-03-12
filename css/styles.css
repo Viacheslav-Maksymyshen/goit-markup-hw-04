@@ -235,7 +235,20 @@ body {
   margin-right: 30px;
 }
 
-.strengths-list .item::before {
+.icon-strengths-fon {
+  padding: 0;
+  border: none;
+  background: var(--second-background-color);
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+}
+.icon-strengths {
+  width: 70px;
+  height: 70px;
+}
+
+/* .strengths-list .item::before {
   display: block;
   content: "";
   height: 120px;
@@ -257,7 +270,7 @@ body {
 }
 .strengths-list .item:nth-child(4)::before {
   background-image: url("../images/astronaut.svg");
-}
+} */
 /* project */
 .project-list {
   display: flex;
@@ -288,6 +301,32 @@ body {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social-team {
+  display: flex;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  background: #212121;
+}
+
+.social-team .item-social:nth-child(4n) {
+  margin-right: 0;
+}
+.icon-team {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
 }
 
 .team-title {
