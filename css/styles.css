@@ -196,7 +196,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  background-image: url("../images/bg-hero.jpg");
+  background-image: url("./images/bg-hero.jpg");
 }
 .order-title {
   margin-top: 0;
